@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* small screen only */
+@media screen and (max-width: 475){
+    .box {
+        background-color: red;
+    }
+
+}
+     /* medium  */
+@media screen and (min-width: 475px) and (max-width: 768px){
+    .box {
+        background-color: yellow;
+    }
+
+}
+            /* large screen */
+@media screen and (max-width: 992px){
+    .box {
+        background-color: indigo;
+    }
+
+}
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    border: 3px double royalblue;
+}
+body{
+    display:flex;
+    justify-content:center */
+}
